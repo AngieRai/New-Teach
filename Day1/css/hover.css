@@ -1,0 +1,33 @@
+.container{
+border: 1px solid rgb(226, 222, 222);
+border-radius: 10px;
+padding:30px  10px ;
+width: 500px;
+box-shadow: 1px 1px 20px rgb(175, 174, 174);
+transition: 1s;
+
+}
+
+.tf{
+    color: #5b5592;
+    font-size: 30px;
+}
+
+.price{
+    color: red;
+    font-size: 20px;
+}
+.idk{
+    font-size: 20px;
+}
+
+.stds{
+    color: #5b5592 ;
+    font-size: 20px;
+}
+
+.container:hover{
+    transform: translateY(-10px);
+}
+
+
