@@ -1,0 +1,29 @@
+*{
+    background: #000;
+}
+
+.wa{
+   display: flex;
+justify-content: center;
+    padding: 500px;
+}
+.naw{
+    border: 30px groove white;
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    border-top: 30px groove gold;
+    border-right: yellow;
+    border-bottom: 20px solid white;
+    animation: rotate 3s infinite;
+}
+
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

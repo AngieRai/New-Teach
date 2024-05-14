@@ -1,0 +1,12 @@
+.Ba{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.Bb{
+    position: absolute;
+    font-size: 100px;
+   top: 550px;
+   font-family:Arial, Helvetica, sans-serif
+}

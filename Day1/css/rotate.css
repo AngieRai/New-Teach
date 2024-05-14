@@ -1,0 +1,24 @@
+.ik {
+    display: flex;
+    justify-content: center;
+  }
+  .mas {
+    font-size: 100px;
+  }
+  .pls {
+    font-size: 10px;
+  }
+  .dk {
+    border-radius: 100%;
+    width: 2000px;
+    animation: rotate 0.5s infinite linear;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
